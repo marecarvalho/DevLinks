@@ -32,7 +32,7 @@ body {
   background-size: cover;
   "atalho" abreviado. 
   background: color image repeat position/size */
-
+  height: 100vh;
   background: var(--bg-url) no-repeat top center/cover;
 }
 
@@ -184,3 +184,14 @@ footer {
 }
 */
 /* ctrl + F busca termos */
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/assets/bg-desktop-light.jpg);
+  }
+}
